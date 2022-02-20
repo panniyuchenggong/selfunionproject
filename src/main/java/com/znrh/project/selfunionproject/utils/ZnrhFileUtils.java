@@ -15,6 +15,7 @@ public class ZnrhFileUtils {
 
     public static void writeContentToLocal(List<String> contentList, File file){
         System.out.println("contentList = " + contentList);
+        System.out.println("hello git branch");
         if(file!=null && file.exists()){
             try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(file));
