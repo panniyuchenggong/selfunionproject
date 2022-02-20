@@ -18,7 +18,8 @@ public class ZnrhFileUtils {
         System.out.println("hello git branch");
         System.out.println("hello git master branch");
         System.out.println("hello git hot-fix branch");
-        System.out.println("push project to github");
+        System.out.println("push to github");
+        System.out.println("pull from github");
         if(file!=null && file.exists()){
             try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(file));
